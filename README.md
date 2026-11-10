@@ -29,10 +29,8 @@ con le note di versione e i checksum SHA-256.
 
 La demo funziona **gratuitamente per 30 giorni** dal primo avvio. Alla scadenza
 il programma mostra la schermata di licenza e blocca la riproduzione. Lo stato
-della prova è protetto: viene conservato in copie nascoste in
-`%APPDATA%\KaraokeParty`, `%LOCALAPPDATA%\KaraokeParty` e in alcune chiavi del
-registro di Windows. Cancellare i file di stato **non** fa ripartire i 30
-giorni.
+della prova è protetto e non viene azzerato cancellando i file di
+configurazione.
 
 La demo non ha altre limitazioni: suona i brani MIDI/KAR con il sintetizzatore
 interno, apre le basi MP3+G, mostra i testi sincronizzati ed è compatibile con
