@@ -1,0 +1,60 @@
+Karaoke Party - Demo 1.1.0 (davides9221)
+========================================
+
+Versione demo gratuita: 30 giorni di prova dal primo avvio.
+Dopo la scadenza il programma mostra la schermata di licenza e blocca la
+riproduzione. Lo stato della prova e' salvato in:
+  %APPDATA%\KaraokeParty\trial.dat
+  %LOCALAPPDATA%\KaraokeParty\trial.dat
+
+La versione completa (Pro) e Davide Karaoke Studio non sono distribuiti
+pubblicamente: informazioni su https://davides9221.it
+
+INSTALLAZIONE (Windows 10/11)
+1. Estrai tutto il contenuto dello zip in una cartella.
+2. Tieni la cartella "assets" accanto a "Karaoke Party Demo.exe".
+3. Avvia "Karaoke Party Demo.exe".
+
+Formati: MIDI/KAR (.mid, .kar, .midi, .rmi) e MP3+G (coppia .mp3 + .cdg).
+
+I brani MIDI/KAR suonano con il SINTETIZZATORE INTERNO (rustysynth +
+soundfont GeneralUser GS nella cartella "assets"): non serve alcuna porta
+MIDI. Per usare un synth esterno, apri il menu MIDI e scegli la porta.
+
+Per MP3+G non serve alcuna porta MIDI: l'audio viene riprodotto direttamente.
+
+La scaletta dei Preferiti e l'ultima cartella aperta vengono salvate
+automaticamente alla chiusura in:
+  %APPDATA%\KaraokeParty\session.txt
+
+Il pulsante FullScr2 apre una seconda finestra con i soli testi karaoke,
+sincronizzata con il player. Trascinala sul secondo monitor e premi F11
+(o fai doppio click) per portarla a schermo intero.
+
+MICROFONI WI-FI (fino a quattro telefoni)
+Installa "Karaoke Party Telefono" (Android 8 o successivo) sul telefono:
+diventa microfono e leggio, manda la voce al PC via Wi-Fi e mostra il testo
+del brano sullo schermo. Sul player premi il pulsante MIC: la finestra mostra
+l'indirizzo del PC da digitare nell'app (oppure usa CERCA, che lo trova da
+solo). Ogni telefono compare poi nella finestra MIC, con il suo vuometro.
+La voce viaggia solo sulla rete di casa: nessun server, nessun cloud.
+
+NOTA SU WINDOWS
+L'eseguibile non e' firmato digitalmente: al primo avvio Windows SmartScreen
+puo' chiedere di confermare. Scegli "Ulteriori informazioni" -> "Esegui
+comunque". Scarica solo dal repository ufficiale o da https://davides9221.it
+
+LICENZA
+Software proprietario a codice chiuso - tutti i diritti riservati.
+La demo e' gratuita per 30 giorni e il pacchetto ufficiale non modificato puo'
+essere ridistribuito gratuitamente. La versione Pro e Davide Karaoke Studio
+richiedono una chiave di licenza emessa dall'autore.
+Testo completo: LICENZA.txt (italiano) e LICENSE-EN.txt (inglese).
+Il codice sorgente non e' distribuito.
+
+Crediti: sintesi MIDI con rustysynth (MIT, Copyright (C) 2022 Nobuaki Tanaka,
+licenza in assets\rustysynth-LICENSE.txt); soundfont GeneralUser GS (licenza in
+assets\GeneralUser-GS-LICENSE.txt).
+
+(c) 2026 Davide (davides9221)
+https://davides9221.it
