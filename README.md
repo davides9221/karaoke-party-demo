@@ -15,8 +15,9 @@ dell'app Android **Karaoke Party Telefono**.
 | **Karaoke Party — Demo** (Windows) | [Karaoke.Party.Demo.1.1.0.zip](https://github.com/davides9221/karaoke-party-demo/releases/latest/download/Karaoke.Party.Demo.1.1.0.zip) | Windows 10/11 |
 | **Karaoke Party Telefono** (Android) | [Karaoke.Party.Telefono.apk](https://github.com/davides9221/karaoke-party-demo/releases/latest/download/Karaoke.Party.Telefono.apk) | Android 8 o successivo |
 
-Tutti i file sono anche nella pagina [Releases](../../releases/latest), con le
-note di versione e i checksum SHA-256.
+Tutti i file sono anche nella pagina
+[Releases](https://github.com/davides9221/karaoke-party-demo/releases/latest),
+con le note di versione e i checksum SHA-256.
 
 ### Karaoke Party — Demo (Windows)
 
