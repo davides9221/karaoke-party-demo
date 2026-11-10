@@ -1,11 +1,12 @@
-Karaoke Party - Demo 1.1.0 (davides9221)
+Karaoke Party - Demo 1.1.1 (davides9221)
 ========================================
 
 Versione demo gratuita: 30 giorni di prova dal primo avvio.
 Dopo la scadenza il programma mostra la schermata di licenza e blocca la
-riproduzione. Lo stato della prova e' salvato in:
-  %APPDATA%\KaraokeParty\trial.dat
-  %LOCALAPPDATA%\KaraokeParty\trial.dat
+riproduzione. Lo stato della prova e' protetto: viene conservato in copie
+nascoste in %APPDATA%\KaraokeParty, %LOCALAPPDATA%\KaraokeParty e in alcune
+chiavi del registro di Windows. Cancellare i file di stato non fa ripartire
+i 30 giorni.
 
 La versione completa (Pro) e Davide Karaoke Studio non sono distribuiti
 pubblicamente: informazioni su https://davides9221.it

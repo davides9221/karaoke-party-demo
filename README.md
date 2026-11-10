@@ -12,7 +12,7 @@ dell'app Android **Karaoke Party Telefono**.
 
 | Cosa | File | Requisiti |
 |------|------|-----------|
-| **Karaoke Party — Demo** (Windows) | [Karaoke.Party.Demo.1.1.0.zip](https://github.com/davides9221/karaoke-party-demo/releases/latest/download/Karaoke.Party.Demo.1.1.0.zip) | Windows 10/11 |
+| **Karaoke Party — Demo** (Windows) | [Karaoke.Party.Demo.1.1.1.zip](https://github.com/davides9221/karaoke-party-demo/releases/latest/download/Karaoke.Party.Demo.1.1.1.zip) | Windows 10/11 |
 | **Karaoke Party Telefono** (Android) | [Karaoke.Party.Telefono.apk](https://github.com/davides9221/karaoke-party-demo/releases/latest/download/Karaoke.Party.Telefono.apk) | Android 8 o successivo |
 
 Tutti i file sono anche nella pagina
@@ -21,16 +21,18 @@ con le note di versione e i checksum SHA-256.
 
 ### Karaoke Party — Demo (Windows)
 
-1. Scarica `Karaoke.Party.Demo.1.1.0.zip` e estrailo in una cartella.
+1. Scarica `Karaoke.Party.Demo.1.1.1.zip` e estrailo in una cartella.
 2. Avvia `Karaoke Party Demo.exe`, tenendo la cartella `assets` accanto
    all'eseguibile (contiene il soundfont del sintetizzatore interno).
 3. Apri un brano dal menu **File** o dal pannello **Archivio**.
 4. Per MP3+G servono la coppia `.mp3` + `.cdg` con lo stesso nome.
 
 La demo funziona **gratuitamente per 30 giorni** dal primo avvio. Alla scadenza
-il programma mostra la schermata di licenza e blocca la riproduzione; lo stato
-della prova è salvato in `%APPDATA%\KaraokeParty\trial.dat` e
-`%LOCALAPPDATA%\KaraokeParty\trial.dat`.
+il programma mostra la schermata di licenza e blocca la riproduzione. Lo stato
+della prova è protetto: viene conservato in copie nascoste in
+`%APPDATA%\KaraokeParty`, `%LOCALAPPDATA%\KaraokeParty` e in alcune chiavi del
+registro di Windows. Cancellare i file di stato **non** fa ripartire i 30
+giorni.
 
 La demo non ha altre limitazioni: suona i brani MIDI/KAR con il sintetizzatore
 interno, apre le basi MP3+G, mostra i testi sincronizzati ed è compatibile con
